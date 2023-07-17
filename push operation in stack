@@ -1,0 +1,10 @@
+void push (int val,int n) //n is size of the stack   
+{  
+    if (top == n )   
+    printf("\n Overflow");   
+    else   
+    {  
+    top = top +1;   
+    stack[top] = val;   
+    }   
+}   
