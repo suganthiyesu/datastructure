@@ -1,0 +1,12 @@
+int peek()  
+{  
+    if (top == -1)   
+    {  
+        printf("Underflow");  
+        return 0;   
+    }  
+    else  
+    {  
+        return stack [top];  
+    }  
+}  
